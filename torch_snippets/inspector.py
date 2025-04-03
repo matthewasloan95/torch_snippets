@@ -8,6 +8,7 @@ __all__ = ["inspect"]
 # %% ../nbs/inspector.ipynb 2
 from .loader import *
 from .registry import AttrDict
+import torch
 
 
 # %% ../nbs/inspector.ipynb 3
