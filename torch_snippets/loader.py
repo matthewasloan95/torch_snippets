@@ -179,7 +179,7 @@ nunique = lambda l: len(set(l))
 
 
 @typedispatch
-def choose(List, n=1, verbose=True):
+def choose(List, n=1, verbose=False):
     if n == 1:
         o = List[randint(len(List))]
     else:
